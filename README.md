@@ -47,9 +47,19 @@ Ce dépôt contient l'implémentation complète de l'**Activité Pratique N°3**
 
 ### 1. Configuration de l'environnement
 ```bash
-# Initialisation avec UV
-uv venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
+# 1. Création et accès au répertoire du projet
+mkdir langchain-langgraph-agentic-ai-mastery
+cd langchain-langgraph-agentic-ai-mastery
 
-# Installation des dépendances
-uv add langchain langchain-openai langgraph chromadb faiss-cpu duckduckgo-search tavily-python python-dotenv
+# 2. Initialisation de l'environnement avec UV
+uv venv
+# Activation (Windows)
+.venv\Scripts\activate
+
+# 3. Installation de toutes les dépendances nécessaires pour les 3 parties
+uv add langchain langchain-openai langgraph streamlit python-dotenv chromadb faiss-cpu duckduckgo-search tavily-python langchain-experimental langchain-community
+
+# 4. Création du fichier de configuration .env
+echo "OPENAI_API_KEY=votre_cle_api_ici" > .env
+echo "TAVILY_API_KEY=votre_cle_tavily_ici" >> .env
+```
