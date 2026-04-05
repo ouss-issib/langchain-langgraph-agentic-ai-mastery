@@ -45,7 +45,6 @@ Ce dépôt contient l'implémentation complète de l'**Activité Pratique N°3**
 
 ## 🚀 Installation et Exécution
 
-### 1. Configuration de l'environnement
 ```bash
 # 1. Création et accès au répertoire du projet
 mkdir langchain-langgraph-agentic-ai-mastery
