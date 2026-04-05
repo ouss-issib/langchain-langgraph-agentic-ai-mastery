@@ -1,0 +1,13 @@
+
+    # Tri des listes
+    list1 = [3, 1, 2]
+    list2 = [45, 788, 12]
+    sorted_list1 = sorted(list1)
+    sorted_list2 = sorted(list2)
+    print(sorted_list1)  # [1, 2, 3]
+    print(sorted_list2)  # [12, 45, 788]
+
+    # Calcul de la somme des listes triées
+    sum_sorted_lists = sum(sorted_list1) + sum(sorted_list2)
+    print(sum_sorted_lists)  # 851
+    
