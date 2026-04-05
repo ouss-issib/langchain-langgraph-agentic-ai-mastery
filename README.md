@@ -62,4 +62,5 @@ uv add langchain langchain-openai langgraph streamlit python-dotenv chromadb fai
 # 4. Création du fichier de configuration .env
 echo "OPENAI_API_KEY=votre_cle_api_ici" > .env
 echo "TAVILY_API_KEY=votre_cle_tavily_ici" >> .env
+echo "LANGSMITH_API_KEY=votre_cle_tavily_ici" >> .env
 ```
