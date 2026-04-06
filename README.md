@@ -45,33 +45,36 @@ Ce dépôt contient l'implémentation complète de l'**Activité Pratique N°3**
 
 
 ## 🖼️ Galerie des Captures d'Écran
-
-### 1️⃣ Partie 1 : Fondamentaux & Outils
+### 1️⃣ Partie 1 : Fondamentaux & Outils Standards
 | Description | Capture d'Écran |
 | :--- | :--- |
 | **Test sans mémoire** | ![Before Memory](./captures/before_memory.png) |
 | **Persistance de la mémoire** | ![Memory](./captures/memory.png) |
 | **Exécution de code Python** | ![PythonREPL](./captures/PythonREPLTool.png) |
-| **Génération de fichier (doc.txt)** | ![PythonREPL Doc](./captures/PythonREPLTool_doctxt.png) |
+| **Génération doc.txt via Python** | ![PythonREPL Doc](./captures/PythonREPLTool_doctxt.png) |
 | **Recherche DuckDuckGo** | ![DuckDuckGo](./captures/DuckDuckGo.png) |
 
-### 2️⃣ Partie 2 : Outils Personnalisés & RAG Agentique
+### 2️⃣ Partie 2 : Middlewares & Outils Personnalisés
 | Description | Capture d'Écran |
 | :--- | :--- |
 | **Outil Infos Employé** | ![GetInfos](./captures/getInfos_tool.png) |
 | **Outil Météo** | ![Meteo](./captures/meteo_tool.png) |
 | **Outil Envoi Email** | ![SendEmail](./captures/sendemailtool.png) |
+| **Sélection Dynamic Model** | ![Standard HR](./captures/standard_hr.png) |
+| **Forçage Modèle (Middleware)** | ![Forced HR](./captures/forced_hr.png) |
 | **Recherche Web Tavily** | ![Tavily](./captures/tavily.png) |
-| **Routage vers CV (ChromaDB)** | ![CV Tool](./captures/langsmith_cvtool.png) |
 
-### 3️⃣ Partie 3 : LangGraph & Monitoring
+### 3️⃣ Partie 3 : LangGraph & Monitoring LangSmith
 | Description | Capture d'Écran |
 | :--- | :--- |
 | **Développement du Graphe** | ![LangGraph Dev](./captures/langgraph_dev.png) |
-| **Analyse du Node "Analyze"** | ![Analyze Node](./captures/graph_workflow_analyze_node.png) |
-| **Analyse du Node "Assistant"** | ![Assistant Node](./captures/graph_workflow_assissant_node.png) |
+| **Analyse Node: Analyze** | ![Analyze Node](./captures/graph_workflow_analyze_node.png) |
+| **Analyse Node: Assistant** | ![Assistant Node](./captures/graph_workflow_assissant_node.png) |
 | **Réponse Finale LangGraph** | ![LangGraph Response](./captures/langhraph_response.png) |
-| **Monitoring LangSmith** | ![LangSmith UI](./captures/langsmith_ui.png) |
+| **Interface LangSmith** | ![LangSmith UI](./captures/langsmith_ui.png) |
+| **Trace LangSmith: CV Tool** | ![LangSmith CV](./captures/langsmith_cvtool.png) |
+| **Modèle LangSmith CV** | ![LangSmith Model](./captures/langsmithcvtool_model.png) |
+| **Prompt dans LangSmith** | ![Prompt LangSmith](./captures/prompt_langsmith.png) |
 
 ---
 ## 🚀 Installation et Exécution
